@@ -18,6 +18,11 @@
   text-decoration: none;
 }
 
+.main-logo-footer{
+  text-decoration: none;
+
+}
+
 .logo {
   font-family: Raleway, sans-serif;
   font-size: 26px;
@@ -71,16 +76,18 @@ ul {
 
 .hero {
   background-color: #2f303a;
+  text-align: center;
 }
 
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #fff;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .button-hero {
@@ -94,6 +101,8 @@ ul {
   cursor: pointer;
   color: #ffffff;
   background-color: var(--accent-text-color);
+  border-radius: 4px;
+  border-color: var(--accent-text-color);
 }
 
 .link:hover,
@@ -114,6 +123,8 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 .text-advantages {
@@ -122,6 +133,7 @@ ul {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--pirimary-text-color);
+  margin: 0px;
 }
 
 /* чем мы занимаемся */
@@ -132,9 +144,24 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 
 /* наша команда */
+
+.section-title-main-team{
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  margin-top: 0px;
+  margin-bottom: 50px;
+  padding-top: 94px;
+
+}
 
 .section-title-team {
   font-weight: 500;
@@ -154,6 +181,7 @@ ul {
 
 .text {
   color: var(--pirimary-text-color);
+  margin-bottom: 0px;
 }
 
 /* Кнопки */
@@ -215,4 +243,17 @@ ul {
 
 .footer {
   background-color: #2f303a;
+}
+
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  padding: 0 15px;
+  outline: 2px solid #000000; 
+}
+
+.ul{
+  margin-top: 0;
+  margin-bottom: 0px;
 }
