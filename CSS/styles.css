@@ -12,6 +12,9 @@
   color: var(--pirimary-text-color);
 }
 
+/* Header */
+
+
 /* Logo */
 
 .main-logo {
@@ -20,7 +23,6 @@
 
 .main-logo-footer{
   text-decoration: none;
-
 }
 
 .logo {
@@ -54,6 +56,7 @@ ul {
 
 /* Навигация */
 
+
 .link {
   font-weight: 500;
   font-size: 14px;
@@ -63,6 +66,7 @@ ul {
   color: var(--title-text-color);
 }
 
+
 .contacts {
   font-weight: 500;
   font-size: 14px;
@@ -71,6 +75,7 @@ ul {
   text-decoration: none;
   color: var(--pirimary-text-color);
 }
+
 
 /* Hero */
 
@@ -239,6 +244,8 @@ ul {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--adress-color);
+  margin-top: 20px;
+  margin-bottom: 9px;
 }
 
 .footer {
