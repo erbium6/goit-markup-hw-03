@@ -19,7 +19,7 @@
   text-decoration: none;
 }
 
-.main-logo-footer{
+.main-logo-footer {
   text-decoration: none;
   margin-bottom: 20px;
 }
@@ -55,24 +55,23 @@ ul {
 
 /* Навигация */
 
-.navigation-main-paige{
+.navigation-main-paige {
   display: flex;
   align-items: center;
 }
 
-.container-header{ 
+.container-header {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
   padding: 0 15px;
-  
 }
 
-.header{
-  border-bottom:  1px solid #ECECEC;
+.header {
+  border-bottom: 1px solid #ececec;
 }
 
-.nav-links{
+.nav-links {
   display: flex;
   margin-left: 93px;
   margin-top: 0px;
@@ -80,15 +79,14 @@ ul {
   padding: 0px;
 }
 
-.nav-links .item:not(:last-child){
+.nav-links .item:not(:last-child) {
   margin-right: 50px;
 }
 
-.nav-links .link{
+.nav-links .link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-
 }
 
 .link {
@@ -100,19 +98,17 @@ ul {
   color: var(--title-text-color);
 }
 
-.contacts-list{
+.contacts-list {
   display: flex;
   margin-left: auto;
   padding: 0px;
-
 }
 
-.contacts-list .item:not(:last-child){
+.contacts-list .item:not(:last-child) {
   margin-right: 50px;
 }
 
 .contacts {
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -121,13 +117,11 @@ ul {
   color: var(--pirimary-text-color);
 }
 
-
 /* Hero */
 
 .hero {
   background-color: #2f303a;
   text-align: center;
-  padding: 200px;
 }
 
 .hero-title {
@@ -137,11 +131,14 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #fff;
-  margin-top: 0;
+
+  margin-top: 0px;
   margin-bottom: 30px;
+  padding-top: 200px;
 }
 
 .button-hero {
+  margin-bottom: 200px;
   width: 200px;
   height: 50px;
   font-family: Roboto;
@@ -156,7 +153,7 @@ ul {
   background-color: var(--accent-text-color);
   border-radius: 4px;
   border-color: transparent;
-  }
+}
 
 .link:hover,
 .link:focus {
@@ -191,19 +188,19 @@ ul {
 
 /* Наши преймущества */
 
-.feature-list{
+.feature-list {
   display: flex;
   padding-left: 0px;
   margin-top: 94px;
   margin-bottom: 94px;
 }
 
-.feature-list .item{
+.feature-list .item {
   width: 270px;
   height: 101px;
 }
 
-.feature-list .item:not(:last-child){
+.feature-list .item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -220,30 +217,29 @@ ul {
   margin-bottom: 50px;
 }
 
-.exemples-list{
+.exemples-list {
   display: flex;
 }
 
-.exemples-list .item:not(:last-child){
+.exemples-list .item:not(:last-child) {
   margin-right: 30px;
 }
 
-.container-exemples{
+.container-exemples {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 94px;
   width: 1200px;
-  padding: 0 15px; 
+  padding: 0 15px;
 }
 
-.img{
+.img {
   display: block;
 }
 
-
 /* наша команда */
 
-.section-title-main-team{
+.section-title-main-team {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.2;
@@ -253,7 +249,6 @@ ul {
   margin-top: 0px;
   margin-bottom: 50px;
   padding-top: 94px;
-
 }
 
 .section-title-team {
@@ -262,6 +257,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  text-align: center;
 }
 
 .text-team {
@@ -270,6 +266,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--pirimary-text-color);
+  text-align: center;
 }
 
 .text {
@@ -277,34 +274,33 @@ ul {
   margin-bottom: 0px;
 }
 
-.container-team{
+.container-team {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 94px; 
-  
+  padding-bottom: 94px;
 }
 
-.section-team{
-  background-color: #F5F4FA;
+.section-team {
+  background-color: #f5f4fa;
 }
 
-.team-list{
+.team-list {
   display: flex;
 }
 
-.team-list .item:not(:last-child){
+.team-list .item:not(:last-child) {
   margin-right: 30px;
 }
 
-.team-list .item{
+.team-list .item {
   width: 270px;
   height: 368px;
   background-color: var(--adress-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-  0px 2px 1px rgba(0, 0, 0, 0.2);
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -323,16 +319,15 @@ ul {
   background-color: #f5f4fa;
   border-radius: 4px;
   border-color: transparent;
-  
 }
 
-.button-list{
+.button-list {
   display: flex;
   justify-content: center;
   margin-top: 94px;
 }
 
-.button-list .item:not(:last-child){
+.button-list .item:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -344,15 +339,17 @@ ul {
 
 /* примеры работ */
 
-.section-title-main{
+.section-title-main {
   display: none;
   margin-top: 0px;
 }
 
 .section-title-examples {
-  margin-top: 20px;
-  margin-bottom: 4px;
-  margin-left: 24px;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  padding-left: 24px;
+  margin: 0px;
+
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -361,9 +358,11 @@ ul {
 }
 
 .text-examples {
-  margin-top: 0px;
-  margin-bottom: 20px;
-  margin-left: 24px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  margin: 0px;
+
   font-weight: normal;
   font-size: 16px;
   line-height: 1.9;
@@ -371,26 +370,35 @@ ul {
   color: var(--pirimary-text-color);
 }
 
-.portfolio-list{
+.img-portfolio {
+  display: block;
+}
+
+.portfolio-text {
+  border: 1px solid #eeeeee;
+  border-top: none;
+}
+
+.portfolio-list {
   margin-top: 56px;
   margin-bottom: 94px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.portfolio-list .item{
+.portfolio-list .item {
+  width: calc((100% - 60px) / 3);
   margin-right: 30px;
-  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
-.portfolio-list .item:nth-child(3n){
+.portfolio-list .item:nth-child(3n) {
   margin-right: 0px;
 }
 
-.portfolio-list .item:nth-last-child(-n + 3){
-  margin-bottom: 0px;
+.portfolio-list .item:nth-child(-n + 3) {
+  margin-top: 0px;
 }
-
 
 /* footer */
 
@@ -405,7 +413,7 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.tel-footer{
+.tel-footer {
   display: block;
   font-weight: normal;
   font-size: 14px;
@@ -431,14 +439,14 @@ ul {
   padding: 60px;
 }
 
-.container{
+.container {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
   padding: 0 15px;
 }
 
-ul{
+ul {
   padding-left: 0px;
   margin-top: 0;
   margin-bottom: 0px;
