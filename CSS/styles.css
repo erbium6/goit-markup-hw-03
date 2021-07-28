@@ -90,6 +90,7 @@ ul {
 }
 
 .link {
+  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -109,6 +110,7 @@ ul {
 }
 
 .contacts {
+  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -120,11 +122,14 @@ ul {
 /* Hero */
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #2f303a;
   text-align: center;
 }
 
 .hero-title {
+  font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -134,11 +139,10 @@ ul {
 
   margin-top: 0px;
   margin-bottom: 30px;
-  padding-top: 200px;
+  
 }
 
 .button-hero {
-  margin-bottom: 200px;
   width: 200px;
   height: 50px;
   font-family: Roboto;
@@ -166,7 +170,14 @@ ul {
 }
 /* секкции */
 /* наши преймущества */
+
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .section-title-h3 {
+  font-family: Roboto;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.1;
@@ -178,6 +189,7 @@ ul {
 }
 
 .text-advantages {
+  font-family: Roboto;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -191,8 +203,6 @@ ul {
 .feature-list {
   display: flex;
   padding-left: 0px;
-  margin-top: 94px;
-  margin-bottom: 94px;
 }
 
 .feature-list .item {
@@ -206,7 +216,12 @@ ul {
 
 /* Чем мы занимаемся */
 
+.section-examples{
+  padding-bottom: 94px;
+}
+
 .section-title-h2 {
+  font-family: Roboto;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.2;
@@ -228,7 +243,6 @@ ul {
 .container-exemples {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 94px;
   width: 1200px;
   padding: 0 15px;
 }
@@ -239,7 +253,12 @@ ul {
 
 /* наша команда */
 
+.img-team{
+  display: block;
+}
+
 .section-title-main-team {
+  font-family: Roboto;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.2;
@@ -248,25 +267,34 @@ ul {
   color: var(--title-text-color);
   margin-top: 0px;
   margin-bottom: 50px;
-  padding-top: 94px;
 }
 
 .section-title-team {
+  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.team-description{
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .text-team {
+  font-family: Roboto;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--pirimary-text-color);
   text-align: center;
+  margin: 0px;
 }
 
 .text {
@@ -280,10 +308,11 @@ ul {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 94px;
 }
 
 .section-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: #f5f4fa;
 }
 
@@ -313,7 +342,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  letter-spacing: 0.03em;
+  letter-spacing: 3%;
   cursor: pointer;
   color: var(--title-text-color);
   background-color: #f5f4fa;
@@ -324,7 +353,6 @@ ul {
 .button-list {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
 }
 
 .button-list .item:not(:last-child) {
@@ -345,24 +373,22 @@ ul {
 }
 
 .section-title-examples {
-  padding-top: 20px;
   padding-bottom: 4px;
-  padding-left: 24px;
   margin: 0px;
-
+  font-family: Roboto;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06em;
+  letter-spacing: 6%;
   color: var(--title-text-color);
+
 }
 
 .text-examples {
   padding-top: 0px;
-  padding-bottom: 20px;
-  padding-left: 24px;
   margin: 0px;
 
+  font-family: Roboto;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.9;
@@ -372,16 +398,24 @@ ul {
 
 .img-portfolio {
   display: block;
+  width: 100%;
+  height: auto
 }
 
 .portfolio-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
   border: 1px solid #eeeeee;
   border-top: none;
+  
+  
+  
 }
 
 .portfolio-list {
   margin-top: 56px;
-  margin-bottom: 94px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -405,6 +439,7 @@ ul {
 .mail-footer {
   display: block;
   margin-bottom: 9px;
+  font-family: Roboto;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -415,6 +450,7 @@ ul {
 
 .tel-footer {
   display: block;
+  font-family: Roboto;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -426,6 +462,7 @@ ul {
 .adress {
   font-style: normal;
   font-weight: normal;
+  font-family: Roboto;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -436,14 +473,15 @@ ul {
 
 .footer {
   background-color: #2f303a;
-  padding: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .container {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
-  padding: 0 15px;
+  padding: 0px 15px;
 }
 
 ul {
